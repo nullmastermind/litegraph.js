@@ -51,8 +51,6 @@ export function drawSlot(
     highlight?: boolean
   } = {},
 ) {
-  console.log('do_stroke', slot)
-  
   // Save the current fillStyle and strokeStyle
   const originalFillStyle = ctx.fillStyle
   const originalStrokeStyle = ctx.strokeStyle
